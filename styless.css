@@ -1,0 +1,27 @@
+body{
+    font-family:Arial;
+    
+}
+
+p{
+    font-size:14px;
+    text-align:justify;
+    line-height:14px;
+       
+ }
+    
+
+h1{
+    color:crimson
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+footer{
+    text-align:center;
+}
