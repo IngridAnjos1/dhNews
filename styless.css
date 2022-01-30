@@ -1,5 +1,7 @@
 body{
     font-family:Arial;
+    margin:30px 300px 30px 300px;
+    display:block
     
 }
 
@@ -25,3 +27,4 @@ ul{
 footer{
     text-align:center;
 }
+
