@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap');
+
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 23px 0 10px 0;
+}
+
+.titulo {
+    color: #ec183f;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    font-size:2rem;
+}
+
+.secao small {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.secao img {
+    width: 100%;
+}
+
+.corpo-texto {
+    margin: 10px 0 20px 0;
+}
+
+.rodape {
+    border-top: 1px solid gray;
+    padding: 20px 0;
+}
+
+.lista-rodape {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rede-social img {
+    width: 42px;
+}
+
+.menu-mobile {
+    display: block;
+}
+
+.menu {
+    display: none;
+    align-items:center;
+}
+
+@media (min-width: 769px) {
+    .menu-mobile {
+        display: none;
+    }
+
+.menu {
+        display: block;
+    }
+
+.corpo{
+        padding:0 20px;
+    }
+}
+.header{
+    padding: 0 20px;
+}
+
+.menu-mobile>img {
+    max-width: 42px;
+    cursor: pointer;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
